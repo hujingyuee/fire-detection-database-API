@@ -164,7 +164,7 @@ def run(
                 for *xyxy, conf, cls in reversed(det):
                     print(f'Confidence: {conf}')
                     if conf > 0:
-                        connection = pymysql.connect(host='192.168.56.102',
+                        connection = pymysql.connect(host='192.168.88.222',
                                                      user='root',
                                                      password='root4321',
                                                      db='fire',
