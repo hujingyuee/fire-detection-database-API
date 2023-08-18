@@ -14,7 +14,7 @@ def getInfo():
     confidence = request.args.get("confidence")
 
     # Connect to the database
-    connection = pymysql.connect(host='192.168.56.102',
+    connection = pymysql.connect(host='192.168.56.222',
                                  user='root',
                                  password='root4321',
                                  db='fire',
@@ -45,7 +45,7 @@ def getImage():
     id = request.args.get("id")
 
     # Connect to the database
-    connection = pymysql.connect(host='192.168.56.102',
+    connection = pymysql.connect(host='192.168.56.222',
                                  user='root',
                                  password='root4321',
                                  db='fire',
